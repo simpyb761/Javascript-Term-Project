@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+ }
+body{
+ display: flex;
+ flex-direction: column;
+ background-color: blue;
+}
+h1{
+ text-align: center;
+ background-color: aquamarine;
+ padding: 20px;
+ border-radius: 15px;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
+}
+h2{
+ text-align: center;
+ background-color: aquamarine;
+ padding: 20px;
+ border-radius: 15px;
+ margin-left: auto;
+ margin-right: auto;
+ width: 33%;
+}
+img{
+ background: none;
+}
+section{
+ width: 75%;
+}
+p, footer{
+    background-color: aquamarine;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    width: 50%;
+    word-wrap: normal;
+    padding:10px;
+    text-align: center;
+}
