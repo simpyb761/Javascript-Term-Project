@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <script src="https://code.jquery.com/jquery-latest.js"></script>
+   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link href="css/puzzles.css" rel="stylesheet">
+   <script>
+      $(function()
+        {
+            $("#SwordTopLeft").draggable();
+            $("#SwordTopMiddleRight").draggable();
+            $("#SwordTopMiddleLeft").draggable();
+            $("#SwordTopRight").draggable();
+            $("#SwordMiddleLeft").draggable();
+            $("#SwordMiddleMiddleLeft").draggable();
+            $("#SwordMiddleMiddleRight").draggable();
+            $("#SwordMiddleRight").draggable();
+            $("#SwordBottomLeft").draggable();
+            $("#SwordBottomMiddleLeft").draggable();
+            $("#SwordBottomMiddleRight").draggable();
+            $("#SwordBottomRight").draggable();
+            $("#axeTopLeft").draggable();
+            $("#axeTopMiddleRight").draggable();
+            $("#axeTopMiddleLeft").draggable();
+            $("#axeTopRight").draggable();
+            $("#axeMiddleLeft").draggable();
+            $("#axeMiddleMiddleLeft").draggable();
+            $("#axeMiddleMiddleRight").draggable();
+            $("#axeMiddleRight").draggable();
+            $("#axeBottomLeft").draggable();
+            $("#axeBottomMiddleLeft").draggable();
+            $("#axeBottomMiddleRight").draggable();
+            $("#axeBottomRight").draggable();
+            $("#polearmTopLeft").draggable();
+            $("#polearmTopMiddleRight").draggable();
+            $("#polearmTopMiddleLeft").draggable();
+            $("#polearmTopRight").draggable();
+            $("#polearmMiddleLeft").draggable();
+            $("#polearmMiddleMiddleLeft").draggable();
+            $("#polearmMiddleMiddleRight").draggable();
+            $("#polearmMiddleRight").draggable();
+            $("#polearmBottomLeft").draggable();
+            $("#polearmBottomMiddleLeft").draggable();
+            $("#polearmBottomMiddleRight").draggable();
+            $("#polearmBottomRight").draggable();
+        });
+   </script>
+   <title>Creating a Draggable Element</title>
+</head>
+
+<body>
+   <h1>Medieval Puzzles</h1>
+   <h2>Drag and drop puzzle games! Click a weapon below to start a puzzle!</h2>
+   <ul class="accordion">
+      <li>
+          <button class="accordion-control">Sword Puzzle</button>
+          <div class="accordion-panel">
+            <section>
+               <img src="media/puzzles/sword/top-left.png" id="SwordTopLeft">
+               <img src="media/puzzles/sword/bottom-middle-right.png" id="SwordBottomMiddleRight">
+               <img src="media/puzzles/sword/middle-middle-right.png" id="SwordMiddleMiddleRight">
+                <img src="media/puzzles/sword/top-right.png" id="SwordTopRight">                                              
+                <img src="media/puzzles/sword/middle-right.png" id="SwordMiddleRight">
+                <img src="media/puzzles/sword/bottom-left.png" id="SwordBottomLeft">
+                <img src="media/puzzles/sword/bottom-middle-left.png" id="SwordBottomMiddleLeft">
+                <img src="media/puzzles/sword/top-middle-left.png" id="SwordTopMiddleLeft">
+                <img src="media/puzzles/sword/middle-left.png" id="SwordMiddleLeft">
+                <img src="media/puzzles/sword/top-middle-right.png" id="SwordTopMiddleRight">
+                <img src="media/puzzles/sword/bottom-right.png" id="SwordBottomRight">
+                <img src="media/puzzles/sword/middle-middle-left.png" id="SwordMiddleMiddleLeft"> 
+             </section>
+          </div>
+      </li>
+      <li>
+          <button class="accordion-control">Axe Puzzle</button>
+          <div class="accordion-panel">
+            <section>
+                <img src="media/puzzles/axe/top-right.png" id="axeTopRight">
+                <img src="media/puzzles/axe/middle-left.png" id="axeMiddleLeft">
+                <img src="media/puzzles/axe/bottom-middle-right.png" id="axeBottomMiddleRight">
+                <img src="media/puzzles/axe/middle-middle-right.png" id="axeMiddleMiddleRight">
+                <img src="media/puzzles/axe/top-left.png" id="axeTopLeft">
+                <img src="media/puzzles/axe/bottom-left.png" id="axeBottomLeft">
+                <img src="media/puzzles/axe/top-middle-right.png" id="axeTopMiddleRight">
+                <img src="media/puzzles/axe/bottom-middle-left.png" id="axeBottomMiddleLeft">
+                <img src="media/puzzles/axe/top-middle-left.png" id="axeTopMiddleLeft">
+                <img src="media/puzzles/axe/bottom-right.png" id="axeBottomRight">
+                <img src="media/puzzles/axe/middle-middle-left.png" id="axeMiddleMiddleLeft">
+                <img src="media/puzzles/axe/middle-right.png" id="axeMiddleRight">
+             </section>
+          </div>
+      </li>
+      <li>
+          <button class="accordion-control">Polearm Puzzle</button>
+          <div class="accordion-panel">
+            <section>
+               <img src="media/puzzles/polearm/bottom-left.png" id="polearmBottomLeft">
+               <img src="media/puzzles/polearm/middle-middle-right.png" id="polearmMiddleMiddleRight">
+                <img src="media/puzzles/polearm/top-middle-right.png" id="polearmTopMiddleRight">                
+                <img src="media/puzzles/polearm/top-right.png" id="polearmTopRight">
+                <img src="media/puzzles/polearm/middle-left.png" id="polearmMiddleLeft">
+                <img src="media/puzzles/polearm/bottom-middle-right.png" id="polearmBottomMiddleRight">
+                <img src="media/puzzles/polearm/middle-middle-left.png" id="polearmMiddleMiddleLeft">
+                <img src="media/puzzles/polearm/bottom-right.png" id="polearmBottomRight">
+                <img src="media/puzzles/polearm/top-left.png" id="polearmTopLeft">
+                <img src="media/puzzles/polearm/middle-right.png" id="polearmMiddleRight">                
+                <img src="media/puzzles/polearm/bottom-middle-left.png" id="polearmBottomMiddleLeft">                               
+                <img src="media/puzzles/polearm/top-middle-left.png" id="polearmTopMiddleLeft">
+             </section>
+          </div>
+      </li>
+  </ul>
+<footer><a href="../final-main-page.html">Click here to return to the main page!</a>
+   <a href="ReadMe.txt">Read Me!</a></footer>
+  <script src="js/puzzles.js"></script>
+</body>
+</html>

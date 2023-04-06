@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+ }
+body{
+ display: flex;
+ flex-direction: column;
+ background-color: black;
+}
+h1{
+ text-align: center;
+ background-color: aqua;
+ padding: 20px;
+ border-radius: 15px;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
+}
+h2{
+ text-align: center;
+ background-color: aqua;
+ padding: 20px;
+ border-radius: 15px;
+ margin-left: auto;
+ margin-right: auto;
+ width: 33%;
+}
+ul{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+li{
+    width: 100%;
+    text-align: center;
+}
+img{
+ background: none;
+}
+section{
+ width: 75%;
+}
+p, footer{
+    background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    width: 50%;
+    word-wrap: normal;
+    padding:10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.accordion{
+    list-style-type: none;
+}
+button{
+    width: 75%;
+    background-color:aqua;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 3em;
+    padding: 10px;
+}
+.champs{
+    list-style-type: none;
+
+}
+.accordion-panel{
+    display: none;
+    border: 1px solid black;
+    width: 75%;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    font-size: 2em;
+}
