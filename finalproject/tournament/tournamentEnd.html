@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/tournament.css">
+</head>
+<body>
+    <h1>Tournament Results</h1>
+    <h2 id="winner"></h2>
+    <footer>
+            <a href="../final-main-page.html">Click here to return to the main page!</a>
+            <a href="tournament.html">Click here to return to the tournament page!</a>
+    </footer>
+</body>
+<script>
+    winner = localStorage.winner
+    console.log(winner)
+    if(winner == "computer"){
+        console.log("Computer won")
+        document.getElementById("winner").innerText = ("You have taken second in the tournament! Try for a win next time!\n Thanks for playing!")
+    }
+    else{
+        console.log("user Won")
+        document.getElementById("winner").innerText = ("Congratulations " + winner +"! You have won the tournament!\n Thanks for playing!")
+    }
+</script>
+</html>

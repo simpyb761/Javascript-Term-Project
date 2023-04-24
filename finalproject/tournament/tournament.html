@@ -10,12 +10,22 @@
             <h1>Knight Tournament</h1>
         </header>
         <section>
-            <p>This page will feature a textbased knight tournament similar to rock paper scissors! 
-                Players will be able to choose weapon/armor types and use strong, quick or block actions to 
-                defeat their opponent.</p>
+            <h2 id="round"></h2>
+            <img src="media/main.picture.jpg" id="img">
+            <ul id="outputText">
+                <li>Text based game similar to rock paper scissors! Strong beats block, quick beats strong, and block beats quick! </li>
+                <li>Enter Your Name</li>
+            </ul>
+            <div id="options"><input type = "text" id="entry">
+            <input type="text" id="userMove" style="display: none;"></div>
+            
+            <button id="startGame">Start Game</button>
+            <button id="enter">Enter</button>
         </section>
         <footer>
             <a href="final-main-page.html">Click here to return to the main page!</a>
+            <a href="Readme.txt">Click here for detailed instructions/ReadMe</a>
         </footer>
+        <script src="js/tournament.js"></script>
     </body>
 </html>

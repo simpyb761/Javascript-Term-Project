@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <script src="https://code.jquery.com/jquery-latest.js"></script>
+   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link href="css/puzzles.css" rel="stylesheet">
+   <script>
+      $(function()
+        {
+            $("#TopLeft").draggable();
+            $("#TopMiddle").draggable();
+            $("#TopRight").draggable();
+            $("#MiddleLeft").draggable();
+            $("#MiddleMiddle").draggable();
+            $("#MiddleRight").draggable();
+            $("#BottomLeft").draggable();
+            $("#BottomMiddle").draggable();
+            $("#BottomRight").draggable();
+        });
+   </script>
+   <title>Creating a Draggable Element</title>
+</head>
+
+<body>
+   <h1>Medieval Puzzles</h1>
+    <h2>Knight Puzzle</h2>
+   <section>
+	  <img src="media/puzzles/topleft.png" id="TopLeft">
+      <img src="media/puzzles/topmiddle.png" id="TopMiddle">
+      <img src="media/puzzles/topright.png" id="TopRight">
+      <img src="media/puzzles/middleleft.png" id="MiddleLeft">
+      <img src="media/puzzles/middlemiddle.png" id="MiddleMiddle">
+      <img src="media/puzzles/middleright.png" id="MiddleRight">
+      <img src="media/puzzles/bottomleft.png" id="BottomLeft">
+      <img src="media/puzzles/bottommiddle.png" id="BottomMiddle">
+      <img src="media/puzzles/bottomright.png" id="BottomRight">
+   </section>
+   <p>This game page will feature various selectable puzzles that user can complete. 
+            These puzzles will be loaded through ajax and be similar to the puzzle above</p>
+   <footer><a href="final-main-page.html">Click here to return to the main page!</a></footer>
+</body>
+</html>
