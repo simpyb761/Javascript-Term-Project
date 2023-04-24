@@ -4,11 +4,12 @@
 body{
  display: flex;
  flex-direction: column;
- background-color: black;
+ background-color: aqua;
 }
 h1{
  text-align: center;
- background-color: aqua;
+ background-color: black;
+ color: aqua;
  padding: 20px;
  border-radius: 15px;
  margin-left: auto;
@@ -17,7 +18,8 @@ h1{
 }
 h2{
  text-align: center;
- background-color: aqua;
+ background-color: black;
+ color: aqua;
  padding: 20px;
  border-radius: 15px;
  margin-left: auto;
@@ -40,7 +42,8 @@ section{
  width: 75%;
 }
 p, footer{
-    background-color: aqua;
+    background-color: black;
+    color: aqua;
     margin-left: auto;
     margin-right: auto;
     border-radius: 15px;
@@ -72,6 +75,8 @@ button{
     display: none;
     border: 1px solid black;
     width: 75%;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     padding-bottom: 25px;
     padding-top: 25px;
